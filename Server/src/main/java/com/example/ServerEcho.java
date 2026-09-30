@@ -49,7 +49,7 @@ public class ServerEcho {
                 String risposta = messaggio.toUpperCase(Locale.ROOT);
                 System.out.println("Messaggio ricevuto: "+ messaggio);
                 System.out.println("Risposta inviata: "+ risposta);
-
+                output.println(risposta);
 
             }
             System.out.println("connessione chiusa.");
